@@ -41,11 +41,11 @@ $lang = array_merge($lang, array(
 	'BACK_TOOL'							=> 'Back to last tool',
 	'BOARD_FOUNDER_ONLY'				=> 'Only Board Founders may access the Support Toolkit.',
 
-	'CAT_ADMIN'							=> 'Admin Tools',
+	'CAT_ADMIN'							=> 'Admini tööriistad',
 	'CAT_ADMIN_EXPLAIN'					=> 'Administrative Tools may be used by an administrator to manage particular aspects of their forum and solve common problems.',
-	'CAT_DEV'							=> 'Developer Tools',
+	'CAT_DEV'							=> 'Arendaja tööriistad',
 	'CAT_DEV_EXPLAIN'					=> 'Developer Tools may be used by phpBB Developers and MODders to perform common tasks.',
-	'CAT_ERK'							=> 'Emergency Repair Kit',
+	'CAT_ERK'							=> 'Hädaolukorra paranduskomplekt',
 	'CAT_ERK_EXPLAIN'					=> 'The emergency repair kit is a seperate package of the STK that is build to run some checks that can detect issues within your phpBB install that might prevent your board from working. Click <a href="%s">here</a> to run the ERK.',
 	'CAT_MAIN'							=> 'Main',
 	'CAT_MAIN_EXPLAIN'					=> 'The Support Toolkit (STK) may be used to fix common issues within a working installation of phpBB 3.2.x. It serves as a second Administration Control Panel, providing an administrator with a set of tools to resolve common problems that may prevent a phpBB3 installation from functioning properly.',
@@ -55,10 +55,10 @@ $lang = array_merge($lang, array(
 	'CAT_USERGROUP_EXPLAIN'				=> 'User and Group Tools may be used to manage users and groups in ways that are not available in a stock phpBB 3.2.x installation.',
 	'CONFIG_NOT_FOUND'					=> 'The STK configuration file couldn’t be loaded. Please check your installation',
 
-	'DOWNLOAD_PASS'						=> 'Download the password file.',
-	'STK_PASSWORD'						=> 'Password',
+	'DOWNLOAD_PASS'						=> 'Lae alla paroolifail.',
+	'STK_PASSWORD'						=> 'Parool',
 
-	'EMERGENCY_LOGIN_NAME'				=> 'STK Emergency Login',
+	'EMERGENCY_LOGIN_NAME'				=> 'STK hädaolukorra logimine',
 	'ERK'								=> 'Emergency Repair Kit',
 
 	'FAIL'								=> 'Fail',
@@ -94,7 +94,7 @@ $lang = array_merge($lang, array(
 	'STK_OUTDATED'						=> 'Your Support Toolkit installation appears to be out of date. The latest available version is <strong style="color: #008000;">%1$s</strong>, while the version your have installed is <strong style="color: #FF0000;">%2$s</strong>.<br /><br />Due to the large impact of this tool on your phpBB installation, it has been disabled until an update is performed. We strongly recommend keeping all software running on your server up to date. For more information regarding the latest update, please see the <a href="%3$s">release topic</a>.<br /><br /><em>If you see this notice after an update of the Support Toolkit, click <a href="%4$s">here</a> to clear the version check cache.</em>',
 	'SUPPORT_TOOL_KIT'					=> 'Support Toolkit',
 	'SUPPORT_TOOL_KIT_INDEX'			=> 'Support Toolkit Index',
-	'SUPPORT_TOOL_KIT_PASSWORD'			=> 'Password',
+	'SUPPORT_TOOL_KIT_PASSWORD'			=> 'Parool',
 	'SUPPORT_TOOL_KIT_PASSWORD_EXPLAIN'	=> 'Since you are not logged in to phpBB3 you must verify that you are a board founder by entering the Support Toolkit Password.<br /><br /><strong>Cookies MUST be allowed by your browser or you will not be able to stay logged in.</strong>',
 
 	'TOOL_INCLUTION_NOT_FOUND'			=> 'This tool is attempting to load a file (%1$s) that does not exist.',
@@ -137,10 +137,10 @@ $lang = array_merge($lang, array(
 
 	'PURGE_CACHE'						=> 'Purge the cache',
 	'PURGE_CACHE_CONFIRM'				=> 'Are you sure you wish to purge the cache?',
-	'USERNAME'							=> 'Username',
-	'PASSWORD'							=> 'Password',
-	'SUBMIT'							=> 'Submit',
-	'CANCEL'							=> 'Cancel',
+	'USERNAME'							=> 'Kasutajanimi',
+	'PASSWORD'							=> 'Parool',
+	'SUBMIT'							=> 'Sisesta',
+	'CANCEL'							=> 'Katkesta',
 	'FORUM_INDEX'						=> 'Board index',
 
 	'FILE_WRITE_FAIL'					=> 'Failed to write file',
