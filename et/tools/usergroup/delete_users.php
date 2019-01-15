@@ -5,7 +5,8 @@
 * @version $Id$
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @
+* 
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -38,10 +39,10 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'DELETE_USERS'				=> 'Removing users',
-	'DELETE_USERS_EXPLAIN'		=> 'Here you can delete users have left no message and did not attend the board for the selected period.',
-	'INACTIVE_PERIOD'			=> 'Inactivity period',
-	'DELETE_USERS_SUCESS'		=> 'Users have been successfully removed.',
-	'DELETE_USERS_NOT_FOUND'	=> 'Users who want to remove, not found.',
-	'DELETE_USERS_CONFIRM'		=> 'Are you sure you wish to delete these users?<br />(<strong>Attention!</strong>Removal of a large number of users can take a long time. Do not leave and do not close this page up until the operation is completed.)',
+	'DELETE_USERS'				=> 'Kasutajate eemaldamine',
+	'DELETE_USERS_EXPLAIN'		=> 'Siin saate kustutada kasutajaid, kes ei ole sisestanud ühtegi postitust ja ei ole loginud foorumisse valitud perioodil.',
+	'INACTIVE_PERIOD'			=> 'Mitteaktiivsuse periood',
+	'DELETE_USERS_SUCESS'		=> 'Kasutajad on edukalt eemaldatud.',
+	'DELETE_USERS_NOT_FOUND'	=> 'Kasutajaid keda soovid eemaldada ei leitud.',
+	'DELETE_USERS_CONFIRM'		=> 'Kas olete kindel, et soovite need kasutajad kustutada?<br />(<strong>Tähelepanu!</strong>Suure hulga kasutajate eemaldamine võib võtta kaua aega. Ärge lahkuge sellelt leheküljelt ega sulgege seda enne, kui operatsioon on lõpetatud).',
 ));
