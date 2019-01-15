@@ -7,6 +7,7 @@
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -39,29 +40,29 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'MERGE_USERS'						=> 'Merge users',
-	'MERGE_USERS_EXPLAIN'				=> 'Tool to move a user account’s assets into another account; the source user’s settings and group memberships are copied. Assets include user permissions, attachments, bans, bookmarks, drafts, forum/topic tracking, forum/topic watching, log entries, poll votes, posts, private messages, reports, topics, warnings and friends and foes.<br /><strong>You may enter either the Username or User ID, not both.</strong>',
+	'MERGE_USERS'						=> 'Kasutajate ühendamine',
+	'MERGE_USERS_EXPLAIN'				=> 'Tööriist kasutajakonto teisaldamiseks teisele kontole; kasutaja seaded ja grupiliikmed kopeeritakse. Sinna hulka kuuluvad kasutaja õigused, manused, keelud, järjehoidjad, mustandid, foorumi / teema jälgimine, foorumi / teema vaatamine, logi kirjed, küsitlushääletused, postitused, privaatsõnumid, raportid, teemad, hoiatused ning sõbrad ja vaenlased.<br /><strong>Võite sisestada kas kasutajanime või kasutaja ID, mitte mõlemat.</strong>',
 
-	'MERGE_USERS_BOTH_FOUNDERS'	=> 'You cannot merge a founder with a non founder user.',
-	'MERGE_USERS_BOTH_IGNORE'	=> 'You cannot merge a bot with a normal user.',
+	'MERGE_USERS_BOTH_FOUNDERS'	=> 'Asutajat ei saa ühendada kasutajaga kellel ei ole asutaja staatust.',
+	'MERGE_USERS_BOTH_IGNORE'	=> 'Sa ei saa Boti tavalise kasutajaga ühendada.',
 
-	'MERGE_USERS_MERGED'		=> 'Users successfully merged.',
+	'MERGE_USERS_MERGED'		=> 'Kasutajate ühendamine õnnestus edukalt.',
 
-	'MERGE_USERS_REMOVE_SOURCE'			=> 'Remove source user',
-	'MERGE_USERS_REMOVE_SOURCE_EXPLAIN'	=> 'If checked this tool will delete the source user from the board.',
+	'MERGE_USERS_REMOVE_SOURCE'			=> 'Eemaldage algne kasutaja',
+	'MERGE_USERS_REMOVE_SOURCE_EXPLAIN'	=> 'Kui see on kontrollitud, kustutab see tööriist algse kasutaja foorumist.',
 
-	'MERGE_USERS_SAME_USERS'	=> 'The source and target users must differ.',
+	'MERGE_USERS_SAME_USERS'	=> 'Algne kasutaja ja sihtkasutaja peavad erinema.',
 
-	'MERGE_USERS_USER_SOURCE_NAME'			=> 'Source user. (Username)',
-	'MERGE_USERS_USER_SOURCE_ID'			=> 'Source user. (User ID)',
-	'MERGE_USERS_USER_SOURCE_NAME_EXPLAIN'	=> 'Posts, private messages, permissions, warnings, et cetera are moved from this user into the target user, group memberships and user settings are copied.',
+	'MERGE_USERS_USER_SOURCE_NAME'			=> 'Algne kasutaja. (Kasutajanimi)',
+	'MERGE_USERS_USER_SOURCE_ID'			=> 'Algne kasutaja. (Kasutaja ID)',
+	'MERGE_USERS_USER_SOURCE_NAME_EXPLAIN'	=> 'Postitusi, privaatsõnumeid, õiguseid, hoiatusi jms liigutatakse kasutajalt sihtkasutajale, grupid ja kasutaja seaded kopeeritakse.',
 
-	'MERGE_USERS_USER_TARGET_NAME'	=> 'Target user. (Username)',
-	'MERGE_USERS_USER_TARGET_ID'	=> 'Target user. (User ID)',
+	'MERGE_USERS_USER_TARGET_NAME'	=> 'Sihtkasutaja. (Kasutajanimi)',
+	'MERGE_USERS_USER_TARGET_ID'	=> 'Sihtkasutaja. (Kasutaja ID)',
 
-	'NO_SOURCE_USER'		=> 'The requested source user does not exist',
-	'NO_TARGET_USER'		=> 'The requested target user does not exist',
+	'NO_SOURCE_USER'		=> 'Taotletud algset kasutajat ei ole olemas',
+	'NO_TARGET_USER'		=> 'Taotletud sihtkasutajat ei eksisteeri',
 
-	'BOTH_SOURCE_USER'		=> 'Fill in one source field only.',
-	'BOTH_TARGET_USER'		=> 'Fill in one target field only.',
+	'BOTH_SOURCE_USER'		=> 'Täitke ainult üks allikaväli.',
+	'BOTH_TARGET_USER'		=> 'Täitke ainult üks sihtmärk.',
 ));
