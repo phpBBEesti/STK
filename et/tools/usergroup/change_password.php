@@ -6,6 +6,7 @@
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -38,17 +39,17 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'CHANGE_PASSWORD'			=> 'Change Password',
-	'CHANGE_PASSWORD_EXPLAIN'	=> 'Change a user’s password.<br /><strong>You may enter either the Username or User ID, not both.</strong>',
-	'CHANGE_PASSWORD_SUCCESS'	=> 'The password for <a href="%s">%s</a> has been successfully changed.',
+	'CHANGE_PASSWORD'			=> 'Muuda salasõna',
+	'CHANGE_PASSWORD_EXPLAIN'	=> 'Muutke kasutaja parooli.<br /><strong>Võite sisestada kas kasutajanime või kasutaja ID, mitte mõlemat.</strong>',
+	'CHANGE_PASSWORD_SUCCESS'	=> '<a href="%s">%s</a> parool on edukalt muudetud.',
 
-	'FIELDS_NOT_FILLED'			=> 'One field must be filled in.',
-	'FIELDS_BOTH_FILLED'		=> 'Only one field may be filled in.',
+	'FIELDS_NOT_FILLED'			=> 'Üks väli tuleb täita.',
+	'FIELDS_BOTH_FILLED'		=> 'Täidetakse ainult üks väli.',
 
-	'PASSWORD_CONFIRM'			=> 'Re-Enter Password',
+	'PASSWORD_CONFIRM'			=> 'Sisesta parool uuesti',
 
-	'USERNAME_NAME'				=> 'Username',
-	'USERNAME_NAME_EXPLAIN'		=> 'Enter the Username of the user whose password you want to change.',
-	'USERNAMEID'				=> 'User ID',
-	'USERNAMEID_EXPLAIN'		=> 'Enter the User ID of the user whose password you want to change.',
+	'USERNAME_NAME'				=> 'Kasutajanimi',
+	'USERNAME_NAME_EXPLAIN'		=> 'Sisestage kasutajanimi, kelle parooli soovite muuta.',
+	'USERNAMEID'				=> 'Kasutaja ID',
+	'USERNAMEID_EXPLAIN'		=> 'Sisestage kasutaja ID, kelle parooli soovite muuta.',
 ));
