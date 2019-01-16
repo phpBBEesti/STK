@@ -5,7 +5,8 @@
 * @version $Id$
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @
+*
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -38,11 +39,11 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'USERS_NOGROUPS'			=> 'Users without groups',
-	'USERS_NOGROUPS_EXPLAIN'	=> 'This is a list of users who for some reason do not belong to any of the groups established at the conference.
-								You can mark any user and assign him a default group, as well as another group or groups, in which the user will enter.',
-	'LOST_GROUPS_USERS'			=> 'Users who do not belong to any groups',
-	'NO_USERS_FOUND'			=> 'No users were found belonging to any groups',
-	'NO_USERS_SELECTED'			=> 'You must select at least one user.',
-	'ASSIGHN_GROUPS_SUCCESS'	=> 'Selected users were successfully added to the group (s).',
+	'USERS_NOGROUPS'			=> 'Grupideta kasutajad',
+	'USERS_NOGROUPS_EXPLAIN'	=> 'See on nimekiri kasutajatest, kes mingil põhjusel ei kuulu ühtegi foorumis loodud gruppi.
+								Saate märkida iga kasutaja ja määrata talle vaikegrupi, samuti teist gruppi või gruppe, kuhu kasutaja siseneb.',
+	'LOST_GROUPS_USERS'			=> 'Kasutajad, kes ei kuulu ühtegi gruppi',
+	'NO_USERS_FOUND'			=> 'Ühtegi gruppi kuuluvaid kasutajaid ei leitud',
+	'NO_USERS_SELECTED'			=> 'Peate valima vähemalt ühe kasutaja.',
+	'ASSIGHN_GROUPS_SUCCESS'	=> 'Valitud kasutajad lisati edukalt gruppi(desse).',
 ));
