@@ -39,10 +39,10 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'USER_COPY_PERM'					=> 'Copy user\'s permissions',
+	'USER_COPY_PERM'					=> 'Kopeeri kasutaja/te õigused',
 	'USER_COPY_PERM_EXPLAIN'			=> 'Note that will be copied to all permissions: users, moderators, administrators and local.',
-	'COPY_USER_PERMISSIONS_EXPLAIN'		=> 'Select user whose permissions will be copied',
-	'COPY_USER_PERMISSIONS_OK'			=> 'Permissions successfully copied.',
+	'COPY_USER_PERMISSIONS_EXPLAIN'		=> 'Valige kasutaja kelle õiguseid soovid kopeerida',
+	'COPY_USER_PERMISSIONS_OK'			=> 'Õigused edukalt kopeeritud.',
 	'USERS_IDENTICAL'					=> 'It is not possible to transfer permissions.',
 	'FIND_FROM_USER'					=> 'Username whose permissions will be copied',
 	'ID_FROM'							=> 'User ID whose permissions will be copied',
