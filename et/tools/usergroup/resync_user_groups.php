@@ -5,6 +5,7 @@
  * @copyright (c) 2009 phpBB Group
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  *
+ * Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
  */
 
 /**
@@ -37,18 +38,18 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'RESYNC_USER_GROUPS'			=> 'Resynchronise user groups',
-	'RESYNC_USER_GROUPS_EXPLAIN'	=> 'This tool is designed to check whether all users are part of the correct default groups <em>(Registered Users, Registered COPPA Users and Newly Registered Users)</em>.',
-	'RESYNC_USER_GROUPS_NO_RUN'		=> 'All groups seem to be up to date!',
-	'RESYNC_USER_GROUPS_SETTINGS'	=> 'Resynchronise options',
-	'RUN_BOTH_FINISHED'				=> 'All user groups have been resynchronised successfully!',
-	'RUN_RNR'						=> 'Resynchronise newly registered users',
-	'RUN_RNR_EXPLAIN'				=> 'This will update the "Newly Registered Users" group so that it contains all users that fit the criteria specified in the ACP.',
-	'RUN_RNR_FINISHED'				=> 'The Newly Registered Users group was successfully resynchronised!',
-	'RUN_RNR_NOT_FINISHED'			=> 'The Newly Registered Users group is currently being resynchronised. Please don’t interrupt this process.',
-	'RUN_RR'						=> 'Resynchronise registered users',
-	'RUN_RR_EXPLAIN'				=> 'The tool has determined that not all users on your board are part of the "Registered <em>(COPPA)</em> users" group. Do you want to resyncronise these groups?<br /><strong>Note:</strong> If your board has COPPA enabled an a user hasn\'t entered a date of birth the user will be placed in the "Registered COPPA users" group!',
-	'RUN_RR_FINISHED'				=> 'The users have been resynchronised successfully!',
+	'RESYNC_USER_GROUPS'			=> 'Kasutajagruppide sünkroonimine',
+	'RESYNC_USER_GROUPS_EXPLAIN'	=> 'See tööriist on mõeldud kontrollimaks, kas kõik kasutajad on õigetes vaikegruppides <em>(Registreeritud kasutajad, Registreeritud COPPA kasutajad ja Vastregistreerunud kasutajad)</em>.',
+	'RESYNC_USER_GROUPS_NO_RUN'		=> 'Kõik grupid tunduvad olevat ajakohased!',
+	'RESYNC_USER_GROUPS_SETTINGS'	=> 'Sünkroniseerimise suvandid',
+	'RUN_BOTH_FINISHED'				=> 'Kõik kasutajagrupid on edukalt sünkroonitud!',
+	'RUN_RNR'						=> 'Vastregistreeritud kasutajate sünkroonimine',
+	'RUN_RNR_EXPLAIN'				=> 'See värskendab gruppi "Vastregistreeritud kasutajad" nii, et see sisaldab kõiki kasutajaid, kes vastavad AJPs määratletud kriteeriumitele.',
+	'RUN_RNR_FINISHED'				=> 'Vastregistreeritud kasutajate grupp sünkrooniti edukalt!',
+	'RUN_RNR_NOT_FINISHED'			=> 'Vastregistreeritud kasutajate grupp on peaaegu sünkroonitud. Palun ärge katkestage seda protsessi.',
+	'RUN_RR'						=> 'Registreeritud kasutajate sünkroonimine',
+	'RUN_RR_EXPLAIN'				=> 'Tööriist on kindlaks teinud, et mitte kõik teie foorumis olevad kasutajad ei kuulu "Registreeritud <em>(COPPA)</em> kasutajad" gruppi. Kas soovite neid gruppe ümber sünkroniseerida?<br /><strong>Märge:</strong> Kui teie foorumil on COPPA funktsioon lubatud ei ole kasutaja sünnikuupäeva sisestanud!',
+	'RUN_RR_FINISHED'				=> 'Kasutajad on edukalt sünkroniseeritud!',
 
-	'SELECT_RUN_GROUP'	=> 'Select at least one group type that will be resynchronised.',
+	'SELECT_RUN_GROUP'	=> 'Valige vähemalt üks grupitüüp, mis sünkroonitakse uuesti.',
 ));
