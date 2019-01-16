@@ -5,7 +5,8 @@
 * @version $Id$
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @
+*
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -38,23 +39,23 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'USER_OPTIONS'			=> 'Changing user options',
-	'USER_OPTIONS_EXPLAIN'	=> 'Here you can change the user settings by default for all or selected user groups.<br />More detailed information can be obtained <a href="https://www.phpbb.com/support/docs/en/3.0/kb/article/changing-user-options-defaults-and-values/" target="_blank"><b>here</b></a>.',
-	'NOTHING'				=> 'Do not change',
-	'USER_OPTIONS_OK'		=> 'Users settings have been successfully changed.',
+	'USER_OPTIONS'			=> 'Kasutajavalikute muutmine',
+	'USER_OPTIONS_EXPLAIN'	=> 'Siin saate muuta vaikimisi kõigi kasutajate seadeid või valitud kasutajarühmade jaoks.<br />Täpsemat teavet saate <a href="https://www.phpbb.com/support/docs/en/3.0/kb/article/changing-user-options-defaults-and-values/" target="_blank"><b>siit</b></a>.',
+	'NOTHING'				=> 'Ärge muutke',
+	'USER_OPTIONS_OK'		=> 'Kasutajate seaded on edukalt muudetud.',
 
-	'viewimg'				=> 'Display images within posts',
-	'viewflash'				=> 'Display Flash animations',
-	'viewsmilies'			=> 'Display smilies as images',
-	'viewsigs'				=> 'Display signatures within posts',
-	'viewavatars'			=> 'Display avatars within posts',
-	'viewcensors'			=> 'Enable word censoring',
-	'attachsig'				=> 'Attach signature by default',
-	'bbcode'				=> 'Enable BBCode by default',
-	'smilies'				=> 'Enable smilies by default',
-	'sig_bbcode'			=> 'Enable BBCode within signature',
-	'sig_smilies'			=> 'Display smilies as images within signature',
-	'sig_links'				=> 'Convert the URL to links within signature',
+	'viewimg'				=> 'Kuva pilte postitustes',
+	'viewflash'				=> 'Kuva flash animatsioone',
+	'viewsmilies'			=> 'Näidake emotikonid piltidena',
+	'viewsigs'				=> 'Kuva allkirjad postitustes',
+	'viewavatars'			=> 'Kuva avatarid postitustes',
+	'viewcensors'			=> 'Luba sõna tsenseerimine',
+	'attachsig'				=> 'Lisage vaikimisi allkiri',
+	'bbcode'				=> 'Luba BBkood vaikimisi',
+	'smilies'				=> 'Luba emotikonid vaikimisi',
+	'sig_bbcode'			=> 'Luba BBkoodi allkirjas',
+	'sig_smilies'			=> 'Luba emotikone allkirjas kujutistena',
+	'sig_links'				=> 'Teisendage URL-id allkirjades linkideks',
 
-	'ALL_GROUPS'			=> 'All Groups',
+	'ALL_GROUPS'			=> 'Kõik grupid',
 ));
