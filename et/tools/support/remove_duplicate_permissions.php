@@ -6,6 +6,7 @@
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -41,10 +42,10 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'DUPLICATES_FOUND'						=> 'The tool has found and removed all duplicate permissions.',
+	'DUPLICATES_FOUND'						=> 'Tööriist on leidnud ja eemaldanud kõik duplikaadi õigused.',
 
-	'NO_DUPLICATES_FOUND'					=> 'The tool has finished checking for duplicate permissions and has found none.',
+	'NO_DUPLICATES_FOUND'					=> 'Tööriist on lõpetanud duplikaatide kontrollimise ja ei tuvastanud ühtegi dublikaati.',
 
-	'REMOVE_DUPLICATE_PERMISSIONS'			=> 'Remove duplicate permissions',
-	'REMOVE_DUPLICATE_PERMISSIONS_CONFIRM'	=> 'Are you sure you want to remove the duplicate permissions?',
+	'REMOVE_DUPLICATE_PERMISSIONS'			=> 'Eemaldage duplikaadi õigused',
+	'REMOVE_DUPLICATE_PERMISSIONS_CONFIRM'	=> 'Kas olete kindel, et soovite duplikaadi õigused eemaldada?',
 ));
