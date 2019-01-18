@@ -6,6 +6,7 @@
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -38,8 +39,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'READD_MODULE_MANAGEMENT'			=> 'Recreate Module Management modules',
-	'READD_MODULE_MANAGEMENT_CONFIRM'	=> 'Are you sure you want to recreate the Module Management modules in the ACP?',
-	'READD_MODULE_MANAGEMENT_SUCCESS'	=> 'The modules have been recreated successfully!',
-	'NO_NEED_READD_MODULE_MANAGEMENT'	=> 'None of the modules has been removed or damaged.',
+	'READD_MODULE_MANAGEMENT'			=> 'Mooduli haldamine ja taasloomine',
+	'READD_MODULE_MANAGEMENT_CONFIRM'	=> 'Kas olete kindel, et soovite AJP-s mooduli haldamise all moodulid uuesti luua?',
+	'READD_MODULE_MANAGEMENT_SUCCESS'	=> 'Moodulid on edukalt loodud!',
+	'NO_NEED_READD_MODULE_MANAGEMENT'	=> 'Ükski moodulitest ei ole eemaldatud ega kahjustatud.',
 ));
