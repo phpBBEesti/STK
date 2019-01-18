@@ -6,6 +6,7 @@
 * @copyright (c) 2010 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -41,7 +42,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'RECACHE_MODERATORS'				=> 'Re-cache moderators',
-	'RECACHE_MODERATORS_COMPLETE'		=> 'The moderator cache has been successfully rebuilt.',
-	'RECACHE_MODERATORS_CONFIRM'		=> 'Are you sure you want to re-cache the moderators?',
+	'RECACHE_MODERATORS'				=> 'Moderaatorite vahemälu',
+	'RECACHE_MODERATORS_COMPLETE'		=> 'Moderaatori vahemälu on edukalt üles ehitatud.',
+	'RECACHE_MODERATORS_CONFIRM'		=> 'Kas olete kindel, et soovite moderaatorite vahemälu uuesti salvestada?',
 ));
