@@ -5,6 +5,7 @@
  * @copyright (c) 2009 phpBB Group
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  *
+ * Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
  */
 
 /**
@@ -37,9 +38,9 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'FLASH_CHECKER'				=> 'Flash checker',
-	'FLASH_CHECKER_CONFIRM'		=> 'In phpBB 3.0.7-pl1, a possible XSS vulnerability was found in the built-in flash BBCode. This issue was resolved in phpBB 3.0.8. This tool will check all posts, private messages, and signatures for this vulnerable BBCode. If found it allows you to quickly reparse these posts to make sure that your board is safe. Check <a href="http://www.phpbb.com/community/viewtopic.php?f=14&t=2111068">the phpBB 3.0.8 release announcement</a> for more information about the issue.',
-	'FLASH_CHECKER_FOUND'		=> 'The flash checker found some potentially dangerous flash BBCodes on your board. Click <a href="%s">here</a> to reparse the posts and private messages that contain this flash BBCode.',
-	'FLASH_CHECKER_NO_FOUND'	=> 'No potentially dangerous flash BBCodes found.',
-	'FLASH_CHECKER_POST'		=> 'If a re-examination revealed that the problem persists please go <a href="%s"><b>here</b></a> and edit the message.',
+	'FLASH_CHECKER'				=> 'Flash kontrollija',
+	'FLASH_CHECKER_CONFIRM'		=> 'PhpBB 3.0.7-pl1 puhul leiti sisse ehitatud flach BBCode abil võimalik XSS-i haavatavus. See probleem lahendati phpBB 3.0.8. See tööriist kontrollib kõiki selle haavatava BBCode postitusi, privaatsõnumeid ja allkirju. Kui see leitakse, saate need postitused kiiresti tagasi, et veenduda, et teie foorum on kaitstud. Probleemi kohta lisateabe saamiseks vaadake <a href="http://www.phpbb.com/community/viewtopic.php?f=14&t=2111068">phpBB 3.0.8 reliisi teadaannet</a>.',
+	'FLASH_CHECKER_FOUND'		=> 'Flachi kontrollija leidis teie foorumis mõningaid potentsiaalselt ohtlikke flashe. Klõpsa <a href="%s">siin</a>, et taastada BBkoodi-i sisaldavaid postitusi ja privaatsõnumeid.',
+	'FLASH_CHECKER_NO_FOUND'	=> 'Potentsiaalselt ohtlikku flashi BBkoodis ei leitud.',
+	'FLASH_CHECKER_POST'		=> 'Kui uuesti läbivaatamine näitas, et probleem püsib, minge <a href="%s"><b>siia</b></a> j muutke sõnumit.',
 ));
