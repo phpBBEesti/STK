@@ -6,6 +6,7 @@
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -38,10 +39,10 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'SET_PROSILVER'						=> 'Assigning prosilver to the default style',
-	'SET_PROSILVER_CONFIRM'				=> 'Allows set Prosilver and assign it as the default style for all users.',
-	'SET_PROSILVER_ALLREADY_ASSIGNED'	=> 'Prosilver is already assigned as the default style. No action is taken.',
-	'SET_PROSILVER_ACTIVATED'			=> 'Prosilver was successfully activated.',
-	'SET_PROSILVER_RESET'				=> 'Prosilver was assigned as the default style.',
-	'SET_PROSILVER_DOES_NOT_EXIST'		=> 'Prosilver does not exist. Please upload a copy of prosilver from the <a href="https://www.phpbb.com/downloads/">3.2.1 Full Package</a>.',
+	'SET_PROSILVER'						=> 'Prosilveri määramine vaikimisi stiilis',
+	'SET_PROSILVER_CONFIRM'				=> 'Võimaldab määrata Prosilveri vaikimisi ja määrata selle ka kõigi kasutajate vaikimisi stiiliks.',
+	'SET_PROSILVER_ALLREADY_ASSIGNED'	=> 'Prosilver on juba määratud vaikimisi stiiliks. Mingeid meetmeid ei võeta.',
+	'SET_PROSILVER_ACTIVATED'			=> 'Prosilver edukalt aktiveeritud.',
+	'SET_PROSILVER_RESET'				=> 'Prosilver määrati vaikimisi stiiliks.',
+	'SET_PROSILVER_DOES_NOT_EXIST'		=> 'Prosilverit ei eksisteeri. Palun laadige Prosilveri <a href="https://www.phpbb.com/downloads/">3.2.1 täispakett</a> üles.',
 ));
