@@ -6,6 +6,7 @@
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -38,8 +39,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'REMOVE_ORPHANED_PERMISSIONS'			=> 'Remove orphaned permissions',
-	'ORPHANED_PERMISSIONS_DELETED'			=> 'Orphaned permissions was successfully removed.',
-	'ORPHANED_PERMISSIONS_NOT_FIND'			=> 'Orphaned permissions are not found.',
-	'REMOVE_ORPHANED_PERMISSIONS_CONFIRM'	=> 'Are you sure you want to delete the orphaned permissions?',
+	'REMOVE_ORPHANED_PERMISSIONS'			=> 'Eemaldage üksikuks jäänud õigused',
+	'ORPHANED_PERMISSIONS_DELETED'			=> 'Üksikuks jäänud õigused on edukalt eemaldatud.',
+	'ORPHANED_PERMISSIONS_NOT_FIND'			=> 'Ei leitud ühtegi üksikuks jäänud õigust.',
+	'REMOVE_ORPHANED_PERMISSIONS_CONFIRM'	=> 'Olete kindel, et soovite kustutada üksikuks jäänud õigused?',
 ));
