@@ -6,6 +6,7 @@
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -38,17 +39,17 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'AUTHOR'					=> 'Author',
-	'FORUM_NAME'				=> 'Forum Name',
-	'NEW_TOPIC_ID'				=> 'New Topic ID',
-	'POST_ID'					=> 'Post ID',
-	'TOPIC_ID'					=> 'Topic ID',
+	'AUTHOR'					=> 'Autor',
+	'FORUM_NAME'				=> 'Foorumi nimi',
+	'NEW_TOPIC_ID'				=> 'Uue teema ID',
+	'POST_ID'					=> 'Postituse ID',
+	'TOPIC_ID'					=> 'Teema ID',
 
-	'DELETE_EMPTY_TOPICS'		=> 'Delete all selected topics by clicking on this button. (Can’t be undone!)',
-	'EMPTY_TOPICS'				=> 'Empty Topics',
-	'EMPTY_TOPICS_EXPLAIN'		=> 'These are topics that have no posts associated with them.',
-	'NO_EMPTY_TOPICS'			=> 'No empty topics found',
-	'NO_TOPICS_SELECTED'		=> 'No topics selected',
+	'DELETE_EMPTY_TOPICS'		=> 'Kustutage kõik valitud teemad, klõpsates sellel nupul. (Seda toimingut ei saa tagasi võtta!)',
+	'EMPTY_TOPICS'				=> 'Tühjad teemad',
+	'EMPTY_TOPICS_EXPLAIN'		=> 'Need on teemad, millel ei ole seotud postitusi.',
+	'NO_EMPTY_TOPICS'			=> 'Ühtegi tühja teemat ei leitud',
+	'NO_TOPICS_SELECTED'		=> 'Valitud teemasid ei ole',
 
 	'ORPHANED_POSTS'			=> 'Orphaned Posts',
 	'ORPHANED_POSTS_EXPLAIN'	=> 'These are posts that do not have a topic associated with them. Specify a new topic ID to have the post attached to that topic.',
