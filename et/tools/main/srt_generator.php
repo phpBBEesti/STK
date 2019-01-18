@@ -6,6 +6,7 @@
  * @copyright (c) 2010 phpBB Group
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  *
+ * Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
  */
 
 /**
@@ -41,7 +42,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'COMPILED_TEMPLATE_EXPLAIN'		=> 'Below is your copy of the Support Request Template. Click below to copy it to your clipboard, then create a new post in the <a href="http://www.phpbb.com/community/viewforum.php?f=556">Support forum</a> with this information. If you already have an existing support topic regarding your issue, please copy the template into a reply to your existing topic instead of creating a new one.',
+	'COMPILED_TEMPLATE_EXPLAIN'		=> 'Allpool on koopia teie tugi taotluse mall. Lõikepuhvrisse kopeerimiseks klõpsake allpool, seejärel looge sellega uus postitus <a href="http://www.phpbb.com/community/viewforum.php?f=556">Tugifoorumisse</a>. Kui teil on juba teie probleemiga seotud tugiteema, siis kopeerige mall olemasoleva teema vastusesse.',
 	'COULDNT_LOAD_SRT_ANSWERS'		=> 'The Support Request Template Generator couldn’t load the answers. Make sure that you’ve correctly started the tool.',
 	'SRT_GENERATOR'					=> 'Support Request Template Generator',
 	'SRT_GENERATOR_LANDING'			=> 'Support Request Template Generator',
