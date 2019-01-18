@@ -5,6 +5,7 @@
  * @copyright (c) 2011 phpBB Group
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  *
+ * Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
  */
 
 /**
@@ -37,8 +38,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'RESYNC_REPORT_FLAGS'			=> 'Resynchronise report flags',
-	'RESYNC_REPORT_FLAGS_CONFIRM'	=> 'This tool will resynchronise the report flags for all posts, topics and private messages.',
-	'RESYNC_REPORT_FLAGS_FINISHED'	=> 'All report flags have successfully been resynchronised!',
-	'RESYNC_REPORT_FLAGS_NEXT'		=> 'Resynchronising report flags in progress. Please do not interrupt this process.',
+	'RESYNC_REPORT_FLAGS'			=> 'Sünkroonige raporti silte',
+	'RESYNC_REPORT_FLAGS_CONFIRM'	=> 'See tööriist sünkroonib raporti silte kõigi postituste, teemade ja privaatsõnumite jaoks.',
+	'RESYNC_REPORT_FLAGS_FINISHED'	=> 'Kõik raportite sildid on edukalt sünkroniseeritud!',
+	'RESYNC_REPORT_FLAGS_NEXT'		=> 'Käimasolevate raporti siltide uuesti sünkroonimine. Palun ära katkesta seda protsessis.',
 ));
