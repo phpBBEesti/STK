@@ -6,6 +6,7 @@
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -38,10 +39,10 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'RESET_STYLES'			=> 'Reset Styles',
-	'RESET_STYLES_EXPLAIN'	=> 'This tool allows you to change a board’s default style.',
-	'RESET_STYLE_COMPLETE'	=> 'The default style has been changed successfully.',
+	'RESET_STYLES'			=> 'Lähtesta stiilid',
+	'RESET_STYLES_EXPLAIN'	=> 'See tööriist võimaldab teil muuta foorumi vaikimisi stiili.',
+	'RESET_STYLE_COMPLETE'	=> 'Vaikimisi stiili on edukalt muudetud.',
 
-	'STYLE'					=> 'Style',
-	'STYLE_EXPLAIN'			=> 'Select the style you want set as the default.',
+	'STYLE'					=> 'Stiil',
+	'STYLE_EXPLAIN'			=> 'Valige stiil mida soovite seada foorumile vaikimisi stiiliks.',
 ));
