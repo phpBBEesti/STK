@@ -5,6 +5,7 @@
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -37,18 +38,18 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'OPTIMIZE_TABLES'			=> 'DB tables optimization',
-	'OPTIMIZE_TABLES_EXPLAIN'	=> 'Search the database tables that need defragmentation and optimization',
-	'GO'						=> 'Optimize',
-	'FRAGMENTED'				=> 'Fragmented',
-	'CREATE_TIME'				=> 'Created',
-	'UPDATE_TIME'				=> 'Latest update',
-	'CHECK_TIME'				=> 'Verified',
-	'NOT_FOUND' 				=> 'Tables requiring optimization is not detected',
-	'TABLE_NAME'				=> 'Table',
-	'TABLE_SIZE'				=> 'Used',
-	'ALL'						=> 'Total: ',
-	'SUCESS'					=> 'Selected tables were successfully optimized',
-	'NOTHING'					=> 'Nothing selected',
-	'OPTIMIZER_MESSAGE'			=> '<b>Caution!</b> Due to the large size of tables and strong fragmentation, the optimization process may take considerable time.<br />Please do not leave this page, do not wait until the results of the optimization.',
+	'OPTIMIZE_TABLES'			=> 'DB tabelite optimeerimine',
+	'OPTIMIZE_TABLES_EXPLAIN'	=> 'Otsige andmebaasi tabelitest, mis vajavad defragmentimist ja optimeerimist',
+	'GO'						=> 'Optimeeri',
+	'FRAGMENTED'				=> 'Killustunud',
+	'CREATE_TIME'				=> 'Loodud',
+	'UPDATE_TIME'				=> 'Viimati uuendatud',
+	'CHECK_TIME'				=> 'Kinnitatud',
+	'NOT_FOUND' 				=> 'Optimeerimist vajavaid tabeleid ei tuvastatud',
+	'TABLE_NAME'				=> 'Tabel',
+	'TABLE_SIZE'				=> 'Kasutatud',
+	'ALL'						=> 'Kokku: ',
+	'SUCESS'					=> 'Valitud tabelid on edukalt optimeeritud',
+	'NOTHING'					=> 'Midagi ei ole valitud',
+	'OPTIMIZER_MESSAGE'			=> '<b>Ettevaatust!</b> Tabelite suuruse ja tugeva killustumise tõttu võib optimeerimisprotsess võtta palju aega.<br />Ärge lahkuge sellelt lehelt ja oodake ära optimeerimise tulemus.',
 ));
