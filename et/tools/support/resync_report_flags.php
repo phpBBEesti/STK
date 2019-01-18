@@ -41,5 +41,5 @@ $lang = array_merge($lang, array(
 	'RESYNC_REPORT_FLAGS'			=> 'Sünkroonige raporti silte',
 	'RESYNC_REPORT_FLAGS_CONFIRM'	=> 'See tööriist sünkroonib raporti silte kõigi postituste, teemade ja privaatsõnumite jaoks.',
 	'RESYNC_REPORT_FLAGS_FINISHED'	=> 'Kõik raportite sildid on edukalt sünkroniseeritud!',
-	'RESYNC_REPORT_FLAGS_NEXT'		=> 'Käimasolevate raporti siltide uuesti sünkroonimine. Palun ära katkesta seda protsessis.',
+	'RESYNC_REPORT_FLAGS_NEXT'		=> 'Käimasolevate raporti siltide uuesti sünkroonimine. Palun ära katkesta seda protsessi.',
 ));
