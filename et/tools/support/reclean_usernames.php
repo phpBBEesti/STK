@@ -6,6 +6,7 @@
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -41,9 +42,9 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'RECLEAN_USERNAMES'					=> 'Reclean Usernames',
-	'RECLEAN_USERNAMES_COMPLETE'		=> 'All usernames have been recleaned successfully.',
-	'RECLEAN_USERNAMES_CONFIRM'			=> 'Are you sure you want to reclean all usernames?',
-	'RECLEAN_USERNAMES_NOT_COMPLETE'	=> 'The reclean usernames tool is currently in progress... please do not interrupt this process.',
-	'USER_ALREADY_EXISTS'				=> 'User with nickname <a href="%2$s" target="_blank" />%1$s</a> already exists.<br />User with wrong clean username <a href="%4$s" target="_blank" />%3$s</a>',
+	'RECLEAN_USERNAMES'					=> 'Taaskasutatavad kasutajanimed',
+	'RECLEAN_USERNAMES_COMPLETE'		=> 'Kõik kasutajanimed on edukalt taastatud.',
+	'RECLEAN_USERNAMES_CONFIRM'			=> 'Kas olete kindel, et soovid kõik kasutajanimed uuesti salvestada?',
+	'RECLEAN_USERNAMES_NOT_COMPLETE'	=> 'Taaskasutatavate kasutajanimede tööriist on praegu käimas ... palun ärge katkestage seda protsessi.',
+	'USER_ALREADY_EXISTS'				=> 'Kasutajal on hüüdnimi <a href="%2$s" target="_blank" />%1$s</a> juba olemas.<br />Kasutajal on vale puhas kasutajanimi <a href="%4$s" target="_blank" />%3$s</a>',
 ));
