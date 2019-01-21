@@ -6,6 +6,7 @@
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 /**
 * DO NOT CHANGE
@@ -40,29 +41,29 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'EXT_TABLE_FINDER'			=> 'Tables',
-	'EXT_TABLE_FINDER_EXPLAIN'	=> 'Here you can get information about an extension, which uses this table:',
-	'TABLE'						=> 'Table',
+	'EXT_TABLE_FINDER'			=> 'Tabelid',
+	'EXT_TABLE_FINDER_EXPLAIN'	=> 'Siin saate teavet laienduse kohta, mis kasutab seda tabelit:',
+	'TABLE'						=> 'Tabel',
 
-	'EXT_COLUMN_FINDER'			=> 'Columns',
-	'EXT_COLUMN_FINDER_EXPLAIN'	=> 'Here you can get information about an extension, which uses this column:',
-	'COLUMN'					=> 'Column',
+	'EXT_COLUMN_FINDER'			=> 'Veerud',
+	'EXT_COLUMN_FINDER_EXPLAIN'	=> 'Siin saate teavet laienduse kohta, mis kasutab seda veergu:',
+	'COLUMN'					=> 'Veerg',
 
-	'EXT_CONFIG_FINDER'			=> 'Configs',
-	'EXT_CONFIG_FINDER_EXPLAIN'	=> 'Here you can get information about an extension, which uses this config parameter:',
-	'CONFIG'					=> 'Parameter',
+	'EXT_CONFIG_FINDER'			=> 'Seadistused',
+	'EXT_CONFIG_FINDER_EXPLAIN'	=> 'Siin saate teavet laienduse kohta, mis kasutab seda konfigureerimisparameetrit:',
+	'CONFIG'					=> 'Parameeter',
 
-	'EXT_MODULE_FINDER'			=> 'Modules',
-	'EXT_MODULE_FINDER_EXPLAIN'	=> 'Here you can get information about an extension, which uses this module:',
-	'MODULE'					=> 'Module',
+	'EXT_MODULE_FINDER'			=> 'Moodulid',
+	'EXT_MODULE_FINDER_EXPLAIN'	=> 'Siin saate teavet laienduse kohta, mis kasutab seda moodulit:',
+	'MODULE'					=> 'Moodul',
 
-	'EXT_PERM_FINDER'			=> 'Permissions',
-	'EXT_PERM_FINDER_EXPLAIN'	=> 'Here you can get information about an extension, which uses this permission:',
-	'PERMISSION'				=> 'Permission',
+	'EXT_PERM_FINDER'			=> 'Õigused',
+	'EXT_PERM_FINDER_EXPLAIN'	=> 'Siin saate teavet laienduse kohta, mis kasutab seda õigust:',
+	'PERMISSION'				=> 'Õigus',
 
 	'PATH'				=> 'PATH, RELATED ./ext',
-	'INFO'				=> 'INFO (name/version  - description)',
-	'NOT_IN_EXT'		=> '<em>Element is not part of any expansion, the appointment is unknown</em>',
+	'INFO'				=> 'INFO (nimi/versioon  - kirjeldus)',
+	'NOT_IN_EXT'		=> '<em>Element ei ole osa laienemisest, kohtumine ei ole teada</em>',
 
-	'EXTRA_EXPLAIN'		=> 'the status of the extension, its name, version and brief description. Active extension <b style="color: #282">highlighted in green</b>.',
+	'EXTRA_EXPLAIN'		=> 'laienduse olek, selle nimi, versioon ja lühikirjeldus. Aktiivne laiendus <b style="color: #282">esile tõstetud rohelisena</b>.',
 ));
