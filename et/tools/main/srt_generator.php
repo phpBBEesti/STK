@@ -43,23 +43,23 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'COMPILED_TEMPLATE_EXPLAIN'		=> 'Allpool on koopia teie tugi taotluse mall. Lõikepuhvrisse kopeerimiseks klõpsake allpool, seejärel looge sellega uus postitus <a href="http://www.phpbb.com/community/viewforum.php?f=556">Tugifoorumisse</a>. Kui teil on juba teie probleemiga seotud tugiteema, siis kopeerige mall olemasoleva teema vastusesse.',
-	'COULDNT_LOAD_SRT_ANSWERS'		=> 'The Support Request Template Generator couldn’t load the answers. Make sure that you’ve correctly started the tool.',
-	'SRT_GENERATOR'					=> 'Support Request Template Generator',
-	'SRT_GENERATOR_LANDING'			=> 'Support Request Template Generator',
-	'SRT_GENERATOR_LANDING_CONFIRM'	=> 'Welcome to the Support Team’s Support Request Template Generator. This is the quickest and most efficient way to complete our Support Request Template. The generator will ask you a series of eight to ten questions that are useful for diagnosing most issues. It will then compile your answers into a list that may be copied and pasted into your support topic.<br />This STK tool does the same thing as the <a href="http://www.phpbb.com/support/stk/">SRT Generator on www.phpbb.com</a> but attempts to pre-fill certain questions.<br /><br />Do you wish run the SRT Generator?',
-	'SRT_NO_CACHE'					=> 'The Support Request Template generator uses the phpBB cache system to store information while going through all the steps. You’re using the phpBB null cache which isn’t compatible with this tool. Please switch to one of the other caching backends to use this tool or use the <a href="http://www.phpbb.com/support/srt/">online SRT Generator</a>',
-	'START_OVER'					=> 'Start over',
-	'NO_ANSVER'						=> 'Answer is not provided',
-	'BY_SRT_GENERATOR'				=> 'Created by Support Request Template Generator',
+	'COULDNT_LOAD_SRT_ANSWERS'		=> 'Toetuse taotluse malli genereerija ei saanud vastuseid laadida. Veenduge, et olete tööriista õigesti käivitanud.',
+	'SRT_GENERATOR'					=> 'Toetuse taotlusvormi generaator',
+	'SRT_GENERATOR_LANDING'			=> 'Toetuse taotlusvormi generaator',
+	'SRT_GENERATOR_LANDING_CONFIRM'	=> 'Tere tulemast Tugirühma tugiteenuse taotlusvormi generaatorisse. See on kiireim ja kõige tõhusam viis meie tugipäringute vormi täitmiseks. Generaator küsib kaheksa kuni kümme küsimust, mis on vajalikud enamike probleemide diagnoosimiseks. Seejärel koostab see teie vastused loendisse, mida saate kopeerida ja kleepida oma soovitud tugiteemasse.<br />See STK tööriist teeb sama, mis <a href="http://www.phpbb.com/support/stk/">SRT generaator aadressil www.phpbb.com</a> kuid proovib teatud küsimusi eelnevalt täita.<br /><br />Kas soovite käivitada SRT generaatorit?',
+	'SRT_NO_CACHE'					=> 'Tugiteenuste taotlusvormide generaator kasutab teabe salvestamiseks phpBB vahemälu süsteemi, läbides kõik sammud. Kasutate phpBB null-vahemälu, mis ei sobi selle tööriistaga. Selle tööriista kasutamiseks kasutage mõnda muud vahemällu salvestatud taustaprogrammi või kasutage <a href="http://www.phpbb.com/support/srt/">online SRT generaatorit</a>',
+	'START_OVER'					=> 'Alusta uuesti',
+	'NO_ANSVER'						=> 'Vastus puudub',
+	'BY_SRT_GENERATOR'				=> 'Loodud Toetuse taotlusvormi generaator',
 ));
 
 // Step 1 strings
 $lang = array_merge($lang, array(
 //	'STEP1_CONVERT'			=> '',
 //	'STEP1_CONVERT_EXPLAIN'	=> '',
-	'STEP1_MOD'				=> 'Is your problem MOD-related?',
-	'STEP1_MOD_EXPLAIN'		=> 'Did this problem start after installing or removing a MOD?',
-	'STEP1_MOD_ERROR'		=> 'Support questions for MOD related issues (e.g., if you have just installed a MOD and are now getting errors) should be posted within the topic of where you have downloaded the MOD. If the MOD was downloaded from another site you will have to seek support there.<br /><br /><a href="http://www.phpbb.com/community/viewforum.php?f=451">Go to the MOD Forums</a>',
+	'STEP1_MOD'				=> 'Kas teie probleem on MOD-ga seotud?',
+	'STEP1_MOD_EXPLAIN'		=> 'Kas see probleem sai alguse pärast mooduli installimist või eemaldamist?',
+	'STEP1_MOD_ERROR'		=> 'Toetuse küsimus, mis on seaotud mooduliga (näiteks kui olete mooduli just installeerinud ja nüüd saate vigu), tuleks postitada teemasse, kust olete mooduli alla laadinud. Kui moodul on alla laaditud mõnelt teiselt saidilt, peate sealt abi otsima.<br /><br /><a href="http://www.phpbb.com/community/viewforum.php?f=451">Mine moodulite foorumisse</a>',
 	'STEP1_HACKED'			=> 'Was your board hacked?',
 	'STEP1_HACKED_EXPLAIN'	=> 'Select "Yes" for this option if you are seeking support because your board was defaced/otherwise compromised.',
 	'STEP1_HACKED_ERROR'	=> 'If your board was hacked, we ask that you file a report with the Incident Investigation Tracker instead of posting in the Support forum so that no private information is disclosed.<br /><br />See <a href="http://www.phpbb.com/community/viewtopic.php?f=46&t=543171#iit">this post</a> for directions on doing so.',
