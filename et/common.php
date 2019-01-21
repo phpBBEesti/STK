@@ -112,17 +112,17 @@ $lang = array_merge($lang, array(
 	'ANONYMOUS_MISSING'					=> 'Tugi tööriistakomplekt määras, et teie andmebaasis puudub anonüümne kasutaja ja teie foorum ei saa korralikult toimida.<br />
 											Kõpsake <a href="%s"><b>siin</b></a> ja minge hädaolukorra parandamise komplekti - anonüümne kasutaja taastatakse automaatselt.',
 
-	'ERK_NO_WHITELIST'					=> 'The BOM sniffer couldn\'t read the whitelist, and can\'t run the tests. Please seek assistance in the <a href="%s">Support Forums</a>.',
-	'ERK_ISSUE_FOUND'					=> 'As part of the “Emergency Repair Kit” of the Support Toolkit the ERK has checked your phpBB files and determined that some of the files contain invalid content that potentially could stop the board from operating. The Support Toolkit has tried to resolve these issues and created a package with the corrected files <em>(backed up versions can be found in <c>store/bom_sniffer_backup/</c>)</em>. This package is stored in the <c>store/bom_sniffer/</c> directory. To apply the changed files to your board please <strong>move</strong> the files from the “store” to their correct location and load the Support Toolkit again. The toolkit will check these files again and will redirect you to the ERK if no flaws are found.<br /><br /><strong style="color: #ff0000;">Before moving the generated files, please make sure that the generated files are correct!</strong> When in doubt please seek assistance in the <a href="http://www.phpbb.com/community/viewforum.php?f=46">support forum</a>.',
-	'ERK_STORE_WRITE'					=> 'The BOM sniffer requires the <c>store</c> directory to exist and to be writable!',
-	'ERK_REMOVE_DIR'					=> 'The Support Toolkit has tried to remove the repaired file storage directory of this tool but wasn\'t able to do so. In order for this tool to run correctly the \'<c>%s</c>\' must be removed from the server. Please remove this directory manually and release the Support Toolkit.',
-	'BOM_SNIFFER_WRITABLE'				=> 'The BOM sniffer requires the ' . STK_ROOT_PATH . 'cache directory to exist and to be writable!',
-	'STK_FATAL_ERROR'					=> '<strong style="color: #ff0000;">The Support Toolkit encountered a fatal error.</strong><br /><br />
-											 The Support Toolkit includes an Emergency Repair Kit (ERK), a tool designed to resolve certain errors that prevent phpBB from functioning.
-											 It is advised that you run the ERK now so it can attempt to repair the error it has detected.<br />
-											 To run the ERK, click <a href="' . STK_ROOT_PATH . 'erk.' . PHP_EXT . '"><b>here</b></a>.',
-	'CONFIG_REPAIR'						=> 'Repair config.php',
-	'CONFIG_REPAIR_EXPLAIN'				=> 'Through this tool you can regenerate your configuration file',
+	'ERK_NO_WHITELIST'					=> 'BOM sniffer ei saanud valge nimekirja lugeda ja ta ei saa teste teha. Palun küsige abi <a href="%s">Tugifoorumitest</a>.',
+	'ERK_ISSUE_FOUND'					=> 'Osana tugitööriistakomplekti „hädaolukorra remondikomplektist” on ERK kontrollinud teie phpBB-faile ja leidnud, et mõned failid sisaldavad kehtetut sisu, mis võib takistada foorumi töötamist. Toetustööriistakomplekt on proovinud neid probleeme lahendada ja loonud parandatud failidega paketi <em>(varundatud versioonid on saadaval <c>store/bom_sniffer_backup/</c>)</em>. See pakett on salvestatud kataloogi <c>store/bom_sniffer/</c>. Muudetud failide foorumile rakendamiseks <strong>teisaldage</strong> salvestatud failid õigesse asukohta ja laadige uuesti abivahendikomplekt. Tööriistakomplekt kontrollib neid faile uuesti ja suunab teid ERK-sse, kui vigu ei leita.<br /><br /><strong style="color: #ff0000;">Enne genereeritud failide teisaldamist veenduge, et genereeritud failid on õiged!</strong> Kahtluse korral paluge abi <a href="http://www.phpbb.com/community/viewforum.php?f=46">tugifoorumist</a>.',
+	'ERK_STORE_WRITE'					=> 'BOM sniffer nõuab kataloogi <c>store</c> olemasolu ja kirjutamist!',
+	'ERK_REMOVE_DIR'					=> 'Tugi tööriistakomplekt on püüdnud eemaldada selle tööriista parandatud failide salvestamise kataloogi, kuid seda ei õnnestunud. Et see tööriist õigesti töötaks, tuleb \'<c>%s</c>\' serverist eemaldada. Palun eemaldage see kataloog käsitsi ja vabastage tugitööriistakomplekt.',
+	'BOM_SNIFFER_WRITABLE'				=> 'BOM sniffer nõuab ' . STK_ROOT_PATH . 'vahemälu kataloogi olemasolu ja kirjutatav!',
+	'STK_FATAL_ERROR'					=> '<strong style="color: #ff0000;">Tugitööriistakomplektil oli fataalne viga.</strong><br /><br />
+											 Toetustööriistakomplekt sisaldab hädaolukorra parandamise komplekti (ERK), mis on mõeldud teatud vigade lahendamiseks, mis takistavad phpBB toimimist.
+											 On soovitatav, et te käivitaksite ERK-i, et saaksite tuvastatud vea parandada.<br />
+											 ERK käivitamiseks klõpsake nuppu <a href="' . STK_ROOT_PATH . 'erk.' . PHP_EXT . '"><b>siin</b></a>.',
+	'CONFIG_REPAIR'						=> 'Paranda config.php',
+	'CONFIG_REPAIR_EXPLAIN'				=> 'Selle tööriista abil saate oma konfiguratsioonifaili taastada',
 	'CONFIG_REPAIR_NO_TABLES'			=> 'phpBB3 tables could not be found on this database with this table prefix.',
 	'CONFIG_REPAIR_NO_DBMS'				=> 'Unable to determine any suitable type of database.',
 	'CONFIG_REPAIR_CONNECT_FAIL'		=> 'Database Connection failed.',
