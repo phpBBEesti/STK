@@ -6,6 +6,7 @@
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 /**
 * DO NOT CHANGE
@@ -40,17 +41,17 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'EVENTS'				=> 'Events',
-	'EVENTS_EXPLAIN'		=> 'Complete list of events can be found at <a href="https://wiki.phpbb.com/Event_List" target="_blank">phpBB Development Wiki (Area51 phpBB)</a>',
-	'CONTENTS'				=> 'Contents',
-	'PHP_EVENTS'			=> 'PHP Events (Hook Locations)',
-	'TEMPLATE_EVENTS'		=> 'Template Events',
-	'ACP_TEMPLATE_EVENTS'	=> 'ACP Template Events',
-	'IDENTIFIER'			=> 'Identifier',
-	'PLACEMENT'				=> 'Placement',
-	'ARGUMENTS'				=> 'Arguments',
-	'EXPLANATION'			=> 'Explanation',
-	'VERSION_E'				=> 'Version',
+	'EVENTS'				=> 'Sündmused',
+	'EVENTS_EXPLAIN'		=> 'Täielikku sündmuste loendi leiate aadressilt <a href="https://wiki.phpbb.com/Event_List" target="_blank">phpBB arendamise wiki (Area51 phpBB)</a>',
+	'CONTENTS'				=> 'Sisu',
+	'PHP_EVENTS'			=> 'PHP Sündmused (Hook Asukohad)',
+	'TEMPLATE_EVENTS'		=> 'Sündmuste vorm',
+	'ACP_TEMPLATE_EVENTS'	=> 'AJP Sõndmuste vorm',
+	'IDENTIFIER'			=> 'Identifitseerima',
+	'PLACEMENT'				=> 'Paigutus',
+	'ARGUMENTS'				=> 'Argumendid',
+	'EXPLANATION'			=> 'Selgitus',
+	'VERSION_E'				=> 'Versioon',
 
 	'ACP_BAN_AFTER'							=> 'Use this event to perform actions after the ban has been performed',
 	'ACP_BAN_BEFORE'						=> 'Use this event to modify the ban details before the ban is performed',
