@@ -42,12 +42,12 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'COMPILED_TEMPLATE_EXPLAIN'		=> 'Allpool on koopia teie tugi taotluse mall. Lõikepuhvrisse kopeerimiseks klõpsake allpool, seejärel looge sellega uus postitus <a href="http://www.phpbb.com/community/viewforum.php?f=556">Tugifoorumisse</a>. Kui teil on juba teie probleemiga seotud tugiteema, siis kopeerige mall olemasoleva teema vastusesse.',
+	'COMPILED_TEMPLATE_EXPLAIN'		=> 'Allpool on koopia teie tugi taotluse mall. Lõikepuhvrisse kopeerimiseks klõpsake allpool, seejärel looge sellega uus postitus <a href="https://www.phpbb.com/community/viewforum.php?f=556">Tugifoorumisse</a>. Kui teil on juba teie probleemiga seotud tugiteema, siis kopeerige mall olemasoleva teema vastusesse.',
 	'COULDNT_LOAD_SRT_ANSWERS'		=> 'Toetuse taotluse malli genereerija ei saanud vastuseid laadida. Veenduge, et olete tööriista õigesti käivitanud.',
 	'SRT_GENERATOR'					=> 'Toetuse taotlusvormi generaator',
 	'SRT_GENERATOR_LANDING'			=> 'Toetuse taotlusvormi generaator',
-	'SRT_GENERATOR_LANDING_CONFIRM'	=> 'Tere tulemast Tugirühma tugiteenuse taotlusvormi generaatorisse. See on kiireim ja kõige tõhusam viis meie tugipäringute vormi täitmiseks. Generaator küsib kaheksa kuni kümme küsimust, mis on vajalikud enamike probleemide diagnoosimiseks. Seejärel koostab see teie vastused loendisse, mida saate kopeerida ja kleepida oma soovitud tugiteemasse.<br />See STK tööriist teeb sama, mis <a href="http://www.phpbb.com/support/stk/">SRT generaator aadressil www.phpbb.com</a> kuid proovib teatud küsimusi eelnevalt täita.<br /><br />Kas soovite käivitada SRT generaatorit?',
-	'SRT_NO_CACHE'					=> 'Tugiteenuste taotlusvormide generaator kasutab teabe salvestamiseks phpBB vahemälu süsteemi, läbides kõik sammud. Kasutate phpBB null-vahemälu, mis ei sobi selle tööriistaga. Selle tööriista kasutamiseks kasutage mõnda muud vahemällu salvestatud taustaprogrammi või kasutage <a href="http://www.phpbb.com/support/srt/">online SRT generaatorit</a>',
+	'SRT_GENERATOR_LANDING_CONFIRM'	=> 'Tere tulemast Tugirühma tugiteenuse taotlusvormi generaatorisse. See on kiireim ja kõige tõhusam viis meie tugipäringute vormi täitmiseks. Generaator küsib kaheksa kuni kümme küsimust, mis on vajalikud enamike probleemide diagnoosimiseks. Seejärel koostab see teie vastused loendisse, mida saate kopeerida ja kleepida oma soovitud tugiteemasse.<br />See STK tööriist teeb sama, mis <a href="https://www.phpbb.com/support/stk/">SRT generaator aadressil www.phpbb.com</a> kuid proovib teatud küsimusi eelnevalt täita.<br /><br />Kas soovite käivitada SRT generaatorit?',
+	'SRT_NO_CACHE'					=> 'Tugiteenuste taotlusvormide generaator kasutab teabe salvestamiseks phpBB vahemälu süsteemi, läbides kõik sammud. Kasutate phpBB null-vahemälu, mis ei sobi selle tööriistaga. Selle tööriista kasutamiseks kasutage mõnda muud vahemällu salvestatud taustaprogrammi või kasutage <a href="https://www.phpbb.com/support/srt/">online SRT generaatorit</a>',
 	'START_OVER'					=> 'Alusta uuesti',
 	'NO_ANSVER'						=> 'Vastus puudub',
 	'BY_SRT_GENERATOR'				=> 'Loodud Toetuse taotlusvormi generaator',
@@ -60,34 +60,34 @@ $lang = array_merge($lang, array(
 	'STEP1_MOD'				=> 'Kas teie probleem on MOD-ga seotud?',
 	'STEP1_MOD_EXPLAIN'		=> 'Kas see probleem sai alguse pärast mooduli installimist või eemaldamist?',
 	'STEP1_MOD_ERROR'		=> 'Toetuse küsimus, mis on seaotud mooduliga (näiteks kui olete mooduli just installeerinud ja nüüd saate vigu), tuleks postitada teemasse, kust olete mooduli alla laadinud. Kui moodul on alla laaditud mõnelt teiselt saidilt, peate sealt abi otsima.<br /><br /><a href="http://www.phpbb.com/community/viewforum.php?f=451">Mine moodulite foorumisse</a>',
-	'STEP1_HACKED'			=> 'Was your board hacked?',
-	'STEP1_HACKED_EXPLAIN'	=> 'Select "Yes" for this option if you are seeking support because your board was defaced/otherwise compromised.',
-	'STEP1_HACKED_ERROR'	=> 'If your board was hacked, we ask that you file a report with the Incident Investigation Tracker instead of posting in the Support forum so that no private information is disclosed.<br /><br />See <a href="http://www.phpbb.com/community/viewtopic.php?f=46&t=543171#iit">this post</a> for directions on doing so.',
+	'STEP1_HACKED'			=> 'Kas teie foorumit oli häkitud?',
+	'STEP1_HACKED_EXPLAIN'	=> 'Valige "Jah", kui otsite sellekohast tuge, sest teie foorum oli rikutud või muul viisil ohustatud.',
+	'STEP1_HACKED_ERROR'	=> 'Kui teie foorum oli häkkitud, palume teil esitada foorumit käsitleva aruande postitamiseks sündmuste uurimise jälgijaga, nii et privaatset teavet ei avaldataks.<br /><br />Vaata edasiste juhiste saamiseks <a href="https://www.phpbb.com/community/viewtopic.php?f=46&t=543171#iit">seda postitust</a>.',
 ));
 
 // The questions
 $lang = array_merge($lang, array(
 	'SRT_QUESTIONS'			=> array(
 		'step2'	=> array(
-			'phpbb_version'		=> 'What version of phpBB are you using?',
-			'board_url'			=> 'What is your board’s URL?',
-			'dbms'				=> 'Which database type/version are you using?',
-			'php'				=> 'Which PHP version are you using?',
-			'host_name'			=> 'Who do you host your board with?',
-			'install_type'		=> 'How did you install your board?',
-			'inst_converse'		=> 'Is your board a fresh install or a conversion?',
-			'mods_installed'	=> 'Do you have any MODs installed?',
-			'registration_req'	=> 'Is registration required to reproduce this issue?',
+			'phpbb_version'		=> 'Millist phpBB versiooni te kasutate?',
+			'board_url'			=> 'Mis on teie foorumi URL aadress?',
+			'dbms'				=> 'Millist andmebaasi tüüpi / versiooni kasutate?',
+			'php'				=> 'Millist PHP versiooni kasutate?',
+			'host_name'			=> 'Kes majutab teie foorumit?',
+			'install_type'		=> 'Kuidas teie foorum installeeriti?',
+			'inst_converse'		=> 'Kas teie foorum on värskelt installeeritud või konversioon?',
+			'mods_installed'	=> 'Kas teil on installitud mõni moodul?',
+			'registration_req'	=> 'Kas registreerimine on vajalik selle probleemi taasesitamiseks?',
 		),
 		'step3'	=> array(
-			'installed_styles'		=> 'What styles do you currently have installed?',
-			'installed_languages'	=> 'What language(s) is your board currently using?',
-			'xp_level'				=> 'What is your level of experience?',
-			'problem_started'		=> 'When did your problem begin?',
-			'problem_description'	=> 'Please describe your problem.',
-			'installed_mods'		=> 'What MODs do you have installed?',
-			'test_username'			=> 'What username can be used to view this issue?',
-			'test_password'			=> 'What password can be used to view this issue?',
+			'installed_styles'		=> 'Milliseid stiile olete praegu installinud?',
+			'installed_languages'	=> 'Milline keel(ed) on teie foorumis praegu kasutatav?',
+			'xp_level'				=> 'Mis on teie kogemuste tase?',
+			'problem_started'		=> 'Millal teie probleem algas?',
+			'problem_description'	=> 'Palun kirjeldage oma probleemi.',
+			'installed_mods'		=> 'Millised mooduleid olete installinud?',
+			'test_username'			=> 'Mis kasutajanime saab selle probleemi vaatamiseks kasutada?',
+			'test_password'			=> 'Millist parooli saab selle probleemi vaatamiseks kasutada?',
 		),
 	),
 ));
@@ -124,18 +124,18 @@ $lang = array_merge($lang, array(
 	'SRT_DROPDOWN_OPTIONS'	=> array(
 		'step2'	=> array(
 			'install_type'	=> array(
-				null			=> 'Please select your answer',
-				'myself'		=> 'I used the download package from phpBB.com',
-				'third'			=> 'I used a download package provided by another website',
-				'someone_else'	=> 'Someone else installed my board for me',
-				'automated'		=> 'I used a tool provided by my host',
+				null			=> 'Palun valige oma vastus',
+				'myself'		=> 'Ma kasutasin allalaadimispaketti aadressilt phpBB.com',
+				'third'			=> 'Ma kasutasin teise veebisaidi pakutavat allalaadimispaketti',
+				'someone_else'	=> 'Keegi teine paigaldas selle foorumi minule',
+				'automated'		=> 'Ma kasutasin oma domeeni majutaja poolt pakutavat tööriista',
 			),
 			'inst_converse'	=> array(
-				null			=> 'Please select your answer',
-				'fresh'				=> 'Fresh Install',
-				'phpbb_update'		=> 'Update from a previous version of phpBB3',
-				'convert_phpbb2'	=> 'Conversion from phpBB2',
-				'convert_other'		=> 'Conversion from another software',
+				null			=> 'Palun valige oma vastus',
+				'fresh'				=> 'Värske install',
+				'phpbb_update'		=> 'Uuenda phpBB3 eelmisest versioonist',
+				'convert_phpbb2'	=> 'Konversioon phpBB2-st',
+				'convert_other'		=> 'Konversioon teiselt tarkvaralt',
 			)
 		),
 		'step3'	=> array(
