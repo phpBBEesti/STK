@@ -6,6 +6,7 @@
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 /**
 * DO NOT CHANGE
@@ -40,8 +41,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'PHPBB'				=> 'phpBB3.2x Files',
+	'PHPBB'				=> 'phpBB3.2x Failid',
 	'ROOT'				=> 'phpBB3.2x',
-	'G_TIME'			=> 'Time of generating the file tree %01.2f s',
-	'FILE_NOT_FOUND'	=> 'File not found',
+	'G_TIME'			=> 'Failipuu genereerimise aeg %01.2f s',
+	'FILE_NOT_FOUND'	=> 'Faili ei leitud',
 ));
