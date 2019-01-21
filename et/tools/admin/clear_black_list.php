@@ -6,6 +6,7 @@
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -38,6 +39,6 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'CLEAR_BLACK_LIST'				=> 'IP-addresses Black list',
-	'NO_BAN_CELL'					=> 'No banned IP addresses'
+	'CLEAR_BLACK_LIST'				=> 'IP-aadresside Must list',
+	'NO_BAN_CELL'					=> 'Keelatud IP-aadressid'
 ));
