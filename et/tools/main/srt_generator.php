@@ -96,15 +96,15 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'SRT_QUESTIONS_EXPLAIN'	=> array(
 		'step2'	=> array(
-			'phpbb_version'		=> 'The SRT Generator couldn’t determine which phpBB version you are using, please select the correct version. To find this information, login to your board and scroll down to the bottom of the page. Click "Administration Control Panel". Click the "System" tab.',
-			'board_url'			=> 'Your board URL is the address that you use to access your board. Most problems are more easily fixed when one can view your board. If you do not want to give out this information, please enter "n/a".',
-			'dbms'				=> 'To determine which database version and type you are using, go to the Administration Control Panel. On the "General" tab, locate "Database server:" in the statistics table.',
-			'php'				=> 'To determine which PHP version you are using, go to the Administration Control Panel. On the "General" tab, click on "PHP Information", here you’ll find "PHP Version x.y.z"',
-			'host_name'			=> 'Some problems experienced with phpBB boards can be attributed to particular hosts. This field should be filled with the company that is providing your webhosting package (like GoDaddy, Yahoo!, 1&1, etc.). If you are hosting the board yourself, please indicate this. Likewise, if you do not know who is hosting your board, please indicate this as well.',
-			'install_type'		=> 'If you installed your board by downloading the phpBB files, uploading them to your host, then browsing to the installer, select "I installed the board by myself." If you had someone do the installation for you, select "Someone else installed my board for me." If you used an automated tool like Fantastico, select "I used a tool provided by my host."',
-			'inst_converse'		=> 'If your board was a fresh install, this means your board did not exist prior to installing phpBB. If you recently updated your board from an older version of phpBB3 prior to your problem beginning, then selected "Update from a previous version of phpBB3". If it is a conversion, this means your board was installed previously as another piece of software then later converted to phpBB.',
-			'mods_installed'	=> 'MODs are often the cause of many problems with phpBB. This information can help to determine the exact cause of your issue.',
-			'registration_req'	=> 'Select "Yes" if one must be registered and logged in to experience this problem.',
+			'phpbb_version'		=> 'SRT generaator ei saanud kindlaks teha, millist phpBB versiooni te kasutate, palun valige õige versioon. Selle teabe leidmiseks logige foorumisse ja liikuge AJP lehekülje ning klikkige Süsteem menüüle.',
+			'board_url'			=> 'Teie foorumi URL on aadress, mida kasutate foorumisse pääsemiseks. Enamik probleeme on lihtsam kindlaks teha, kui saate oma foorumit vaadata. Kui te ei soovi seda teavet anda, sisestage "n/a".',
+			'dbms'				=> 'Kasutatava andmebaasi versiooni ja tüübi määramiseks liikuge Administraatori juhtpaneeli. Vahekaardil "Üldine" leidke statistika tabelist "Andmebaasi server".',
+			'php'				=> 'Kasutatava PHP versiooni määramiseks liikuge Administraatori juhtpaneeli. Klõpsake vahekaardil "Üldine" nuppu "PHP teave". Siit leiate "PHP versiooni x.y.z"',
+			'host_name'			=> 'Mõningaid phpBB-foorumitega seotud probleeme võib seostada teatud domeeni majutajatega. See väli tuleb täita domeeni majutaja nimega, kes pakub teie veebihostimispaketti (nt GoDaddy, Zone jne). Kui te ise hostite oma foorumit, siis märkige palun see. Samuti, kui te ei tea, kes teie foorumit majutab, palun märkige ka see.',
+			'install_type'		=> 'Kui paigaldasite oma foorumi, laadides alla phpBB-failid, laadides need oma serverisse, siis sirvides installeerijale, valige „Ma paigaldasin foorumi ise". Kui keegi teine paigaldas foorumi teie eest, siis valige "Keegi teine, kes paigaldas foorumi". Kui kasutasite automatiseeritud tööriista nagu näiteks Fantastico, valige "Ma kasutasin oma domeenimajutaja poolt pakutavat tööriista."',
+			'inst_converse'		=> 'Kui teie foorumis oli puhas install, tähendab see, et teie foorum ei olnud enne phpBB installimist olemas. Kui värskendasite hiljuti oma foorumit mõnest phpBB3 vanemast verioonist enne probleemi algust, siis valige "Uuendasin phpBB3 vanemast versioonist". Kui tegemist on konversiooniga, siis tähendab see, et teie foorumil oli eelnevalt teine tarkvara, seejärel konverteeriti see phpBB-ks.',
+			'mods_installed'	=> 'Moodulid on sageli paljude phpBB probleemide põhjuseks. See teave aitab teie probleemi täpset põhjust kindlaks määrata.',
+			'registration_req'	=> 'Valige "Jah", kui selle probleemi nägemiseks tuleb foorumisse registreerid ja sisse logida.',
 		),
 		'step3'	=> array(
 			'installed_styles'		=> 'An out of date style is the cause of many problems. If you do not know which styles you have installed, go to the Administration Control Panel, then browse to the "Styles" tab.',
@@ -140,12 +140,12 @@ $lang = array_merge($lang, array(
 		),
 		'step3'	=> array(
 			'xp_level'		=> array(
-				null			=> 'Please select your answer',
-				'new_both'		=> 'New to PHP and phpBB',
-				'new_phpbb'		=> 'New to phpBB but not PHP',
-				'new_php'		=> 'New to PHP but not phpBB',
-				'comfort'		=> 'Comfortable with PHP and phpBB',
-				'experienced'	=> 'Experienced with PHP and phpBB',
+				null			=> 'Palun valige oma vastus',
+				'new_both'		=> 'Uus PHP ja phpBB',
+				'new_phpbb'		=> 'Uus phpBB, kuid mitte PHP',
+				'new_php'		=> 'Uus PHP, kuid mitte phpBB',
+				'comfort'		=> 'Mugav PHP ja phpBB-ga',
+				'experienced'	=> 'Kogenud PHP ja phpBB-ga',
 			),
 		),
 	),
