@@ -6,6 +6,7 @@
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 /**
 * DO NOT CHANGE
@@ -40,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'EXTENSIONS'			=> 'Develop extensions',
+	'EXTENSIONS'			=> 'Arendage laiendusi',
 	'EXTENSIONS_EXPLAIN'	=> 'Creating a workpiece extension. After performing the necessary actions will be established minimum extension structure. To create a full-fledged extension you need to edit the generated files and add new ones that will be required for the extension.',
 	'DEVELOPER'				=> 'Name (nickname) Developer',
 	'DEVELOPER_EXPLAIN'		=> 'This is the name of the extension, which will be displayed in the ACP in tab <strong>&laquo;Customise-->Extensions Manager-->Details&raquo;</strong> together with other optional parameters that you can enter below.',
