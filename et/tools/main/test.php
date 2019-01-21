@@ -6,6 +6,7 @@
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 /**
 * DO NOT CHANGE
@@ -40,13 +41,13 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TEST'				=> 'General Information',
-	'DATABASE_INFO'		=> 'Database server',
-	'DBMS'				=> 'Database type',
-	'PHP_INFO'			=> 'Information about php',
-	'PHP_VERSION'		=> 'PHP version',
-	'STK_VERSION'		=> 'Support Tookit version',
-	'MBSTRING_LOADED'	=> 'Functions for working with multi-byte strings (PHP extension <strong>mbstring</strong>) is loaded',
-	'MBSTRING_NOT_LOADED'				=> 'Functions for working with multi-byte strings (PHP extension <strong>mbstring</strong>) not loaded',
-	'ERROR_MBSTRING_NOT_LOADED_EXPLAIN'	=> 'mbstring is not included in the list of extensions that are installed by default. This means that initially this extension is disabled. To use the functions of this extension, you must explicitly enable the module to configure php. Need to consult the documentation for <a href="http://php.net/manual/ru/mbstring.configuration.php">PHP</a>.',
+	'TEST'				=> 'Üldine informatsioon',
+	'DATABASE_INFO'		=> 'Andmebaasi server',
+	'DBMS'				=> 'Andmebaasi tüüp',
+	'PHP_INFO'			=> 'Teave php kohta',
+	'PHP_VERSION'		=> 'PHP versioon',
+	'STK_VERSION'		=> 'Toetustööriista versioon',
+	'MBSTRING_LOADED'	=> 'Laaditakse funktsioone, mis töötavad mitmebaidiliste stringidega (PHP laiendus <strong>mbstring</strong>)',
+	'MBSTRING_NOT_LOADED'				=> 'Mitmebaidiliste stringidega töötamise funktsioonid (PHP laiendus <strong>mbstring</strong>) ei ole laaditud',
+	'ERROR_MBSTRING_NOT_LOADED_EXPLAIN'	=> 'mbstring ei ole vaikimisi installitud laienduste loendis. See tähendab, et algselt on see laiendus keelatud. Selle laienduse funktsioonide kasutamiseks peate lubama moodulil seadistada php. Tuleb tutvuda <a href="http://php.net/manual/ru/mbstring.configuration.php">PHP dokumentatsiooniga</a>.',
 ));
