@@ -5,6 +5,7 @@
  * @copyright (c) 2009 phpBB Group
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  *
+ * Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
  */
 
 /**
@@ -37,8 +38,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'RESYNC_ATTACHMENTS'			=> 'Resynchronise attachments',
-	'RESYNC_ATTACHMENTS_CONFIRM'	=> 'This tool will make sure that all attachments stored in the database actually have a file on the server. If the file is missing, this tool will remove the attachment from the database. Are you sure that you want to continue?',
-	'RESYNC_ATTACHMENTS_FINISHED'	=> 'Attachments successfully resynchronised!',
-	'RESYNC_ATTACHMENTS_PROGRESS'	=> 'Resynchronising attachments in progress. Please do not interrupt this process.',
+	'RESYNC_ATTACHMENTS'			=> 'Manuste uuesti sünkroonimine',
+	'RESYNC_ATTACHMENTS_CONFIRM'	=> 'See tööriist tagab, et kõik andmebaasis olevad manused on serveris tegelikult olemas. Kui fail puudub, eemaldab see tööriist manuse andmebaasist. Kas olete kindel, et soovite jätkata?',
+	'RESYNC_ATTACHMENTS_FINISHED'	=> 'Manused on edukalt sünkroonitud!',
+	'RESYNC_ATTACHMENTS_PROGRESS'	=> 'Käimas manuste uuesti sünkroonimine. Palun ärge katkestage seda protsessi.',
 ));
