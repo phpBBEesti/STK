@@ -6,6 +6,7 @@
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -38,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'PURGE_SESSIONS'			=> 'Purge Sessions',
-	'PURGE_SESSIONS_COMPLETE'	=> 'Sessions have been purged successfully.',
-	'PURGE_SESSIONS_CONFIRM'	=> 'This tool will remove all current sessions and log out all users. Are you sure that you want to continue?',
+	'PURGE_SESSIONS'			=> 'Puhastage sessioonid',
+	'PURGE_SESSIONS_COMPLETE'	=> 'Sessioonid on edukalt puhastatud.',
+	'PURGE_SESSIONS_CONFIRM'	=> 'See tööriist eemaldab kõik praegused sessioonid ja logib välja kõik kasutajad. Kas olete kindel, et soovite jätkata?',
 ));
