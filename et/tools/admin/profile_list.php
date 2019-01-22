@@ -6,6 +6,7 @@
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -38,21 +39,21 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ALL'					=> 'All',
+	'ALL'					=> 'Kõik',
 
-	'CLICK_TO_DELETE'		=> 'Delete all selected users by clicking on this button. <em>(Can’t be undone!)</em>',
+	'CLICK_TO_DELETE'		=> 'Kõikide valitud kasutajate kustutamiseks klõpsake seda nuppu. <em>(Ei saa tagasi võtta!!)</em>',
 
 	'FILTER'				=> 'Filter',
 
-	'LIMIT'					=> 'Limit',
+	'LIMIT'					=> 'Limiit',
 
-	'ONLY_NON_EMPTY'		=> 'Only Non-Empty',
-	'ORDER_BY'				=> 'Order By',
+	'ONLY_NON_EMPTY'		=> 'Ainult tühi',
+	'ORDER_BY'				=> 'Telli',
 
-	'PROFILE_LIST'			=> 'Profile List',
-	'PROFILE_LIST_EXPLAIN'	=> 'This tool displays profile information for multiple users. It may also be used to aid in identifying spam accounts.',
+	'PROFILE_LIST'			=> 'Profiilide loend',
+	'PROFILE_LIST_EXPLAIN'	=> 'See tööriist kuvab mitme kasutaja profiili andmed. Seda võib kasutada ka rämpsposti kontode tuvastamiseks.',
 
-	'USERS_DELETE'				=> 'Delete selected users',
-	'USERS_DELETE_CONFIRM'		=> 'Are you sure that you want to delete the selected users? Deleting users through this tool <strong>will</strong> remove all their posts as well!',
-	'USERS_DELETE_SUCCESSFULL'	=> 'All selected users where deleted successfully!',
+	'USERS_DELETE'				=> 'Kustuta valitud kasutajad',
+	'USERS_DELETE_CONFIRM'		=> 'Kas olete kindel, et soovite valitud kasutajad kustutada? Kasutajate kustutamine selle tööriista abil <strong>eemaldab ka kõik postitused</strong>!',
+	'USERS_DELETE_SUCCESSFULL'	=> 'Kõik valitud kasutajad kustutati edukalt!',
 ));
