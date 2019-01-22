@@ -5,6 +5,7 @@
  * @copyright (c) 2009 phpBB Group
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  *
+ * Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
  */
 
 /**
@@ -37,9 +38,9 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'PRUNE_ATTACHMENTS'				=> 'Checking attachments files',
-	'PRUNE_ATTACHMENTS_EXPLAIN'		=> 'This tool checks for the existence of extra attachments files (<em>checked files from subfolders!</em>). If these files exists, it will be removed. Continue?',
-	'PRUNE_ATTACHMENTS_FINISHED'	=> 'Extra attachments files not found.',
-	'PRUNE_ATTACHMENTS_PROGRESS'	=> 'Checking unnecessary files in progress. Do not interrupt the process!<br />The following files have been deleted:',
-	'PRUNE_ATTACHMENTS_FAIL'		=> '<br />The following files could not be removed:',
+	'PRUNE_ATTACHMENTS'				=> 'Manuste failide kontrollimine',
+	'PRUNE_ATTACHMENTS_EXPLAIN'		=> 'See tööriist kontrollib täiendavate manuste failide olemasolu (<em>kontrollis alamkaustadelt!</em>). Kui need failid on olemas, eemaldatakse need. Jätka?',
+	'PRUNE_ATTACHMENTS_FINISHED'	=> 'Manuste faile ei leitud.',
+	'PRUNE_ATTACHMENTS_PROGRESS'	=> 'Käimasolevate mittevajalike failide kontrollimine. Ärge katkestage protsessi!<br />Järgmised failid on kustutatud:',
+	'PRUNE_ATTACHMENTS_FAIL'		=> '<br />Järgmisi faile ei saanud eemaldada:',
 ));
