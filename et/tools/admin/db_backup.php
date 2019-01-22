@@ -5,6 +5,7 @@
  * @copyright (c) 2009 phpBB Group
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  *
+ * Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
  */
 
 /**
@@ -37,23 +38,23 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'DB_BACKUP'					=> 'Database backup',
-	'DB_BACKUP_EXPLAIN'			=> 'Here you can backup all your phpBB related data. You may store the resulting archive in your <samp>store/</samp> folder, download or see on screen. Depending on your server configuration you may be able to compress the file in a number of formats.',
-	'DB_BACKUP_EXPLAIN_DUMPER'	=> 'The resulting backup is compatible with the format utility <a href ="http://www.mysqldumper.net/" target="_blank" /><strong>MySQLDumper</strong></a>, which supports granular recovery of database tables.',
+	'DB_BACKUP'					=> 'Andmebaasi varukoopia',
+	'DB_BACKUP_EXPLAIN'			=> 'Siin saate varundada kõik oma phpBB-ga seotud andmed. Saad varukoopia salvestada kausta <samp>store/</samp>, allalaadida või vaadata. Sõltuvalt teie serveri konfiguratsioonist võib olla võimalik fail tihendada mitmes formaadis.',
+	'DB_BACKUP_EXPLAIN_DUMPER'	=> 'Tulemuseks olev varukoopia on ühilduv vormingutarkvaraga <a href ="http://www.mysqldumper.net/" target="_blank" /><strong>MySQLDumper</strong></a>, mis toetab andmebaasi tabelid.',
 
-	'SELECT_TABLE'		=> 'Tables',
-	'MARK_ALL'			=> 'Select all',
-	'EXPAND'			=> 'Expand',
-	'COLLAPSE'			=> 'Collapse',
-	'UNMARK_ALL'		=> 'Unmark all',
-	'GZIP'				=> 'Compression',
-	'SAVE'				=> 'Save on server',
-	'DOWNLOAD'			=> 'Download',
-	'BACKUP_SUCCESS'	=> 'The backup file has been created successfully.',
-	'BACKUP_ACTION'		=> 'Action',
-	'BACKUP_TYPE'		=> 'Backup type',
-	'FULL'				=> 'Full',
-	'STRUCTURE'			=> 'Structure only',
-	'DATA'				=> 'Data only',
-	'SCREEN'			=> 'Show on screen'
+	'SELECT_TABLE'		=> 'Tabelid',
+	'MARK_ALL'			=> 'Vali kõik',
+	'EXPAND'			=> 'Laienda',
+	'COLLAPSE'			=> 'Ahenda',
+	'UNMARK_ALL'		=> 'Tühista kõik',
+	'GZIP'				=> 'Tihendamine',
+	'SAVE'				=> 'Salvesta serverisse',
+	'DOWNLOAD'			=> 'Lae alla',
+	'BACKUP_SUCCESS'	=> 'Varukoopia on edukalt loodud.',
+	'BACKUP_ACTION'		=> 'Meede',
+	'BACKUP_TYPE'		=> 'Varunduse tüüp',
+	'FULL'				=> 'Täielik',
+	'STRUCTURE'			=> 'Ainult struktuur',
+	'DATA'				=> 'Ainult andmed',
+	'SCREEN'			=> 'Näita ekraanil'
 ));
