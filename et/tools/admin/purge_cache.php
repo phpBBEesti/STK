@@ -6,6 +6,7 @@
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -38,5 +39,5 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'PURGE_CACHE_COMPLETE'	=> 'The cache has been purged successfully.',
+	'PURGE_CACHE_COMPLETE'	=> 'Vahemälu on edukalt puhastatud.',
 ));
