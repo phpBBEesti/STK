@@ -6,6 +6,7 @@
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -41,28 +42,28 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'REPARSE_ALL'				=> 'Reparse all BBCodes',
-	'REPARSE_ALL_EXPLAIN'		=> 'When checked the BBCode reparse will reparse all content on the board; by default, the tool will only reparse posts/private messages/signatures that have been previously parsed by phpBB. This option will be ignored if specific posts, PMs or forums are specified above. Please note that this tool has the potential to damage your database beyond repair; therefore, <strong>be sure to backup your database before proceeding</strong>. Moreover, note that this tool may take some time to complete.',
-	'REPARSE_BBCODE'			=> 'Reparse BBCode',
-	'REPARSE_BBCODE_COMPLETE'	=> 'BBCodes have been reparsed.',
-	'REPARSE_BBCODE_PROGRESS'	=> 'Step %1$d completed. Moving on to step %2$d in a moment...',
+	'REPARSE_ALL'				=> 'Kõik BBkoodi reparatsioonid',
+	'REPARSE_ALL_EXPLAIN'		=> 'Kui kontrollitakse, taastab BBkoodi taandamine kogu foorumi sisu; vaikimisi taastab tööriist ainult postitused / privaatsed sõnumid / allkirjad, mis on eelnevalt phpBB poolt analüüsitud. Seda võimalust ignoreeritakse, kui eespool on määratud konkreetsed postitused, PM-id või foorumid. Pange tähele, et see tööriist võib teie andmebaasi kahjustada; seetõttu <strong>veenduge, et varundate oma andmebaasi enne jätkamist</strong>. Lisaks pange tähele, et see tööriist võib aega võtta.',
+	'REPARSE_BBCODE'			=> 'BBkoodi reparatsioon',
+	'REPARSE_BBCODE_COMPLETE'	=> 'BBkoodid on üle kontrollitud.',
+	'REPARSE_BBCODE_PROGRESS'	=> 'Samm %1$d on lõpetatud. Liigume sammule %2$d hetkepärast...',
 	'REPARSE_BBCODE_SWITCH_MODE'	=> array(
-		1	=> 'Finished reparsing the posts, moving on to private messages.',
-		2	=> 'Finished reparsing private messages, moving on to signatures.',
+		1	=> 'Lõpetatud postituste reparatsioon, liikudes privaatsõnumitele.',
+		2	=> 'Lõpetatud privaatsõnumite reparatsioon, liikudes edasi allkirjadele.',
 	),
 	'REPARSE_BBCODE_MODE'			=> array(
-		0	=> 'Reparsing posts in progress.',
-		1	=> 'Reparsing private messages in progress.',
-		2	=> 'Reparsing signatures in progress.',
+		0	=> 'Käimas postituste reparatsioon.',
+		1	=> 'Käimas privaatsõnumite reparatsioon.',
+		2	=> 'Käimas allkirjade reparatsioon.',
 	),
-	'REPARSE_IDS_INVALID'			=> 'The IDs you submitted were not valid; please ensure that post IDs are listed as a comma separated list (e.g. 1,2,3,5,8,13).',
-	'REPARSE_IDS_EMPTY'				=> 'You have not selected any reparsing mode. If you don\'t know how to choose a mode, check the box <strong>Reparse all BBCodes</strong>. ',
-	'REPARSE_POST_IDS'				=> 'Reparse Specific Posts',
-	'REPARSE_POST_IDS_EXPLAIN'		=> 'To reparse specific posts only, specify post IDs in a comma-separated list (e.g. 1,2,3,5,8,13).',
-	'REPARSE_PM_IDS'				=> 'Reparse Specific PMs',
-	'REPARSE_PM_IDS_EXPLAIN'		=> 'To reparse specific PMs only, specify PM IDs in a comma-separated list (e.g. 1,2,3,5,8,13).',
-	'REPARSE_FORUMS'				=> 'Reparse Posts from specific forums',
-	'REPARSE_FORUMS_EXPLAIN'		=> 'To select multiple forums some or all of the proper use for your computer and browser combination of mouse and keyboard.',
-	'CREATE_BACKUP_TABLE'			=> 'Create Backup',
-	'CREATE_BACKUP_TABLE_EXPLAIN'	=> 'The database table will be created from which you can restore messages in case of failure or emergency shutdown.'
+	'REPARSE_IDS_INVALID'			=> 'Teie esitatud ID-d ei olnud kehtivad; veenduge, et postituste ID-d on eraldatud komadega (nt 1,2,3,5,8,13).',
+	'REPARSE_IDS_EMPTY'				=> 'Te ei ole valinud ühtki reparatsiooni režiimi. Kui te ei tea, kuidas režiimi valida, märkige ruut <strong>Repareeri kõiki BBkoode</strong>. ',
+	'REPARSE_POST_IDS'				=> 'Repareeri konkreetsed postitused',
+	'REPARSE_POST_IDS_EXPLAIN'		=> 'Ainult teatud postituste tagasilükkamiseks määrake postituste ID-d mis oleks komadega eraldatud (nt 1,2,3,5,8,13).',
+	'REPARSE_PM_IDS'				=> 'Repareei spetsiifilised PM-id',
+	'REPARSE_PM_IDS_EXPLAIN'		=> 'Konkreetsete PM-ide repareerimiseks määrake PM-d mis oleks komadega eraldatud (nt 1,2,3,5,8,13).',
+	'REPARSE_FORUMS'				=> 'Repareeri postitused konkreetsetest foorumitest',
+	'REPARSE_FORUMS_EXPLAIN'		=> 'Mitme foorumi valimiseks kasutage mõnda või kõiki teie arvuti, hiire, klaviatuuri ja brauseri kombinatsiooni õiget kombinatsiooni.',
+	'CREATE_BACKUP_TABLE'			=> 'Loo varukoopia',
+	'CREATE_BACKUP_TABLE_EXPLAIN'	=> 'Luuakse andmebaasi tabel, kust saate tõrke või hädaseiskamise korral sõnumeid taastada.'
 ));
