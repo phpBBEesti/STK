@@ -6,6 +6,7 @@
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -38,17 +39,17 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ERROR_QUERY'					=> 'Query containing the error',
+	'ERROR_QUERY'					=> 'Viga sisaldav päring',
 
-	'NO_RESULTS'					=> 'No Results',
-	'NO_SQL_QUERY'					=> 'You must enter a query to run.',
+	'NO_RESULTS'					=> 'Tulemused puuduvad',
+	'NO_SQL_QUERY'					=> 'Sa pead sisestama päringu.',
 
-	'QUERY_RESULT'					=> 'Query results',
+	'QUERY_RESULT'					=> 'Päringu tulemused',
 
-	'SHOW_RESULTS'					=> 'Show Results',
-	'SQL_QUERY'						=> 'Run SQL Query',
-	'SQL_QUERY_EXPLAIN'				=> 'Enter the SQL query you wish to run. The tool will substitute "phpbb_" with your table prefix.<br />If the "Show Results" checkbox is checked the tool will display the results <em>(if any)</em> of the query.',
+	'SHOW_RESULTS'					=> 'Näita tulemusi',
+	'SQL_QUERY'						=> 'Käivita SQL Päring',
+	'SQL_QUERY_EXPLAIN'				=> 'Sisestage SQL-päring, mida soovite käivitada. Tööriist asendab "phpbb_" tabeli eesliitega.<br />Kui märkeruut "Kuva tulemusi" on märgitud, kuvab tööriist päringu tulemused <em>(kui üldse)</em>.',
 
-	'SQL_QUERY_LEGEND'				=> 'SQL Query',
-	'SQL_QUERY_SUCCESS'				=> 'The SQL query has been run successfully.',
+	'SQL_QUERY_LEGEND'				=> 'SQL Päring',
+	'SQL_QUERY_SUCCESS'				=> 'SQL päring on edukalt käivitatud.',
 ));
