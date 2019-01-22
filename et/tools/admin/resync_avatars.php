@@ -5,6 +5,7 @@
  * @copyright (c) 2009 phpBB Group
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  *
+ * Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
  */
 
 /**
@@ -37,9 +38,9 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'RESYNC_AVATARS'			=> 'Resynchronise avatars',
-	'RESYNC_AVATARS_CONFIRM'	=> 'This tool will make sure that all avatars used on the board actually exist on the server. When missing files are found the avatar will be removed from the users profile. Are you sure you want to continue?',
-	'RESYNC_AVATARS_FINISHED'	=> 'Avatars successfully resynchronised!',
-	'RESYNC_AVATARS_NEXT_MODE'	=> 'Switching to the group avatars, please don’t interrupt this process!',
-	'RESYNC_AVATARS_PROGRESS'	=> 'Resynchronising avatars in process, please don’t interrupt this process!',
+	'RESYNC_AVATARS'			=> 'Avataride sünkroonimine',
+	'RESYNC_AVATARS_CONFIRM'	=> 'See tööriist tagab, et kõik foorumis olevad avatarid on serveris tegelikult olemas. Kui puuduvad failid leitakse, eemaldatakse avatarid kasutajaprofiilidest. Kas olete kindel, et soovite jätkata?',
+	'RESYNC_AVATARS_FINISHED'	=> 'Avatarid on edukalt sünkroonitud!',
+	'RESYNC_AVATARS_NEXT_MODE'	=> 'Käimas grupi avataridele üleminek, ärge katkestage seda protsessi!',
+	'RESYNC_AVATARS_PROGRESS'	=> 'Avataride sünkroonimise protsess, ärge katkestage seda protsessi!',
 ));
