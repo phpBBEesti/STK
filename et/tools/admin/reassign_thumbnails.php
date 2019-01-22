@@ -5,6 +5,7 @@
  * @copyright (c) 2017 Sheer
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  *
+ * Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
  */
 
 /**
@@ -37,17 +38,17 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'REASSIGN_THUMBNAILS'			=> 'Rebuild thumbnails',
-	'REASSIGN_THUMBNAILS_CONFIRM'	=> 'In case the option &laquo;Create thumbnails&nbsp; was disabled but attachments have been created, you can create thumbnails for such attachments.<br />Continue?',
-	'REASSIGN_THUMBNAILS_PROGRESS'	=> 'Creatig thumbnails in progress. Do not interrupt the process!',
-	'REASSIGN_THUMBNAILS_FINISHED'	=> 'Thumbnail creation complete.',
-	'NO_THUMBNAILS_TO_REBUILD'		=> 'No files for which you need to create thumbnails.',
-	'NEED_TO_PROCESS' 				=> 'Files without thumbnails: ',
-	'THUMB'							=> '<strong>thumbnail</strong>',
-	'REBUILT'						=> 'Create Thumbnails',
-	'NO_NEED_REBUILT'				=> '<strong style="color: #aaa;">No need thumbnal</strong> for ',
-	'SOURCE_UNAVAILABLE'			=> 'File not found: ',
-	'NO_EXTENSIONS'					=> 'There are no file extensions for group extensions <strong>Images</ strong> .',
-	'NO_EXTENSIONS_GROUP'			=> 'Еxtension group <strong>Images</ strong> does not exist.',
-	'IMAGES'						=> 'Images',
+	'REASSIGN_THUMBNAILS'			=> 'Taastage pisipildid',
+	'REASSIGN_THUMBNAILS_CONFIRM'	=> 'Valiku korral &laquo;Loo thumbnails&nbsp; on keelatud, kuid manused on loodud, saate selliste manuste jaoks luua pisipilte.<br />Jätka?',
+	'REASSIGN_THUMBNAILS_PROGRESS'	=> 'Pisipiltide loomine on käimas. Ärge katkestage seda protsessi!',
+	'REASSIGN_THUMBNAILS_FINISHED'	=> 'Pisipildi loomine on lõpetatud.',
+	'NO_THUMBNAILS_TO_REBUILD'		=> 'Puuduvad failid, mille jaoks pisipildid tuleb luua.',
+	'NEED_TO_PROCESS' 				=> 'Pisipiltidega failid: ',
+	'THUMB'							=> '<strong>pisipilt</strong>',
+	'REBUILT'						=> 'Loo pisipildid',
+	'NO_NEED_REBUILT'				=> '<strong style="color: #aaa;">Puudub pisipilt</strong>',
+	'SOURCE_UNAVAILABLE'			=> 'Faili ei leitud: ',
+	'NO_EXTENSIONS'					=> 'Grupi laienduste <strong>piltidele</ strong> ei ole faililaiendeid.',
+	'NO_EXTENSIONS_GROUP'			=> 'Täiendav grupp <strong>Pildid</ strong> ei eksisteeri.',
+	'IMAGES'						=> 'Pildid',
 ));
